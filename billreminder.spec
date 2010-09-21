@@ -1,7 +1,7 @@
 Summary:	BillReminder - a desktop bill reminder for GNOME
 Name:		billreminder
 Version:	0.3.2
-Release:	3
+Release:	4
 License:	BSD
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/billreminder/0.3/%{name}-%{version}.tar.bz2
