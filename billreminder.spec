@@ -16,6 +16,7 @@ BuildRequires:	python-dbus
 BuildRequires:	python-devel >= 1:2.5
 BuildRequires:	python-pygobject
 BuildRequires:	python-sqlite >= 2.3.0
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.311
 Requires(post,postun):	gtk+2
 Requires(post,postun):	hicolor-icon-theme
