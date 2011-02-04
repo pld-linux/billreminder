@@ -1,7 +1,7 @@
 Summary:	BillReminder - a desktop bill reminder for GNOME
 Name:		billreminder
 Version:	0.3.2
-Release:	4
+Release:	5
 License:	BSD
 Group:		X11/Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/billreminder/0.3/%{name}-%{version}.tar.bz2
@@ -18,7 +18,7 @@ BuildRequires:	python-pygobject
 BuildRequires:	python-sqlite >= 2.3.0
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.311
-Requires(post,postun):	gtk+2
+Requires(post,postun):	gtk-update-icon-cache
 Requires(post,postun):	hicolor-icon-theme
 Requires(post,preun):	GConf2
 %pyrequires_eq	python-modules
