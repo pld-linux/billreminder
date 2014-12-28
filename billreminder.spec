@@ -10,7 +10,7 @@ URL:		http://billreminder.gnulinuxbrasil.org/
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf >= 2.53
 BuildRequires:	automake >= 1:1.7
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.40.0
 BuildRequires:	python-dbus
 BuildRequires:	python-devel >= 1:2.5
